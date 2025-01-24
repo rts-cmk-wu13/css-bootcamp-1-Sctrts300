@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(130, 230, 230);
+}
+
+h1{
+    display: grid;
+    justify-content: center;
+    font-family: "Julius Sans One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(85, 0, 255);
+}
+
+header{
+    margin-bottom:2em ;
+}
+
+p{
+    font-family: "Julius Sans One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+article{
+    width: 14em;
+}
+
+section{
+    overflow: hidden;
+    height: 10em;
+    width: 14em;
+}
+
+.pics{
+    height: 10em;
+}
+
+footer{
+    margin-top: 2em;
+    background-color: aqua;
+}
+
+ul{
+   padding-top: 1em;
+}
+
+small{
+    display: grid;
+    justify-content: center;
+    padding-bottom: 2em;
+}
